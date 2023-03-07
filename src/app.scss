@@ -1,0 +1,20 @@
+h1 {
+  font-size: 18px;
+  color: #333;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+
+  &:hover{
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    color: red;
+  }
+}
+
+.bg{
+  background-image: url('./images/bg.jpeg');
+  width: 100px;
+  height: 100px;
+}
