@@ -1,0 +1,15 @@
+h1 {
+  font-size: 18px;
+  color: #333;
+  transition: all 0.3s;
+}
+h1:hover {
+  transform: translateX(50%);
+  color: red;
+}
+
+.bg {
+  background-image: url(images/bg.e893f219c6a0a15c2352cd11ba7a4a4b.jpeg);
+  width: 100px;
+  height: 100px;
+}

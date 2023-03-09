@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    // "ecmaVersion": 2017,
+    "sourceType": "module" // "script"
+  },
+  "env": {
+    "browser": true, // console.logを可能にする
+    "es2017": true
+  },
+  // グローバルオブジェクトにそれぞれがある前提でいいかどうか。
+  "globals": {
+    "jQuery": "readonly",
+    "$": "readonly",
+    "utils": "readonly"
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": ["error", "always"]
+  }
+}
